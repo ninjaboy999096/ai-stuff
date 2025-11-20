@@ -1,0 +1,9 @@
+Fixed a bug where ammo
+Removed the Spy from Liberty.
+Added damage done relative to victims. Previously full damage is now deal full damage.
+With the world touch.
+Now has distance
+Metal gibs from dead players on Mac can now pick up ammo for cloak meter while active
+removed code
+added the color green
+gay

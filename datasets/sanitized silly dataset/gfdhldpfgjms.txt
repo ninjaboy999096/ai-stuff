@@ -1,0 +1,97 @@
+General
+
+Updated hit registration to reduce delayed melee attacks.
+
+Fixed a rare crash when spectating a cloaked Spy during Halloween events.
+
+Improved server performance on maps with high props.
+
+Adjusted random crit chance scaling during high ping sessions.
+
+Scout
+
+Bonk! Atomic Punch now grants slightly less damage resistance to encourage aggressive play.
+
+Scattergun reload time decreased by 0.1 seconds.
+
+Fixed a bug where Scout could double jump while crouching mid-air.
+
+Soldier
+
+Rocket Launcher splash radius slightly reduced to improve projectile control.
+
+Added a new visual effect when Soldier rockets hit enemies at max velocity.
+
+Adjusted base jump momentum to prevent unintended wall glitches.
+
+Pyro
+
+Flamethrower now properly applies afterburn to enemies with Spy cloaks.
+
+Airblast now more reliably reflects projectiles when moving backward.
+
+Fixed a rare animation desync during “Taunt: High Five” while carrying the flag.
+
+Demoman
+
+Stickybomb detonation now slightly delayed when thrown over ramps.
+
+Scottish Resistance shield now properly resists explosive knockback in competitive modes.
+
+Fixed a bug with Chargin’ Targe where explosions would occasionally push the user forward.
+
+Heavy
+
+Minigun spin-up time now resets correctly after being interrupted by damage.
+
+Health regeneration from Sandvich adjusted to prevent overhealing exploits.
+
+Fixed a client-side bug that caused unusual Heavy taunts to overlap with kill sounds.
+
+Engineer
+
+Sentry Gun targeting improved for faster acquisition on high-latency servers.
+
+Teleporter exit animation bug fixed; players no longer appear in a T-pose.
+
+Dispenser now occasionally outputs ammo and metal in a 2:1 ratio as intended.
+
+Medic
+
+ÜberCharge rate now slightly faster when healing allies under 50 HP.
+
+Fixed a rare crash when Medic switches weapons mid-ÜberCharge.
+
+New audio cue added when healing multiple players simultaneously.
+
+Sniper
+
+Headshot sound now correctly triggers on moving targets at extreme ranges.
+
+Jarate now extinguishes Pyro afterburn immediately.
+
+Fixed a bug where Scoped Sniper could sometimes see through walls after respawn.
+
+Spy
+
+Cloak duration slightly increased to improve stealth in tight corridors.
+
+Backstab now consistently works on enemies using UberCharge.
+
+Fixed rare bug where Spy could accidentally decloak in spectator mode.
+
+Maps & Modes
+
+cp_dustbowl: Added small cover near mid for defensive play.
+
+koth_viaduct: Improved lighting to reduce player visibility exploit spots.
+
+Added minor optimization to payload tracks for smoother movement.
+
+Miscellaneous
+
+Adv. Options now properly applies network smoothing on high ping connections.
+
+Random crits now respect projectile speed and distance for consistency.
+
+Updated localization files; minor grammar fixes across all languages.

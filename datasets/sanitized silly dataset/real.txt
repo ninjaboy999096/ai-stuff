@@ -1,0 +1,112 @@
+An update to Team Fortress 2 has been released. The update will be applied automatically when you restart Team Fortress 2. The major changes include:
+Added missing files for Taunt: The Travel Agent
+Added No Hat styles for the Cozy Cover-Up
+Added VScript support for HIDEHUD_MATCH_STATUS flag to hide the Match Status panel
+Added a borderless window option to video settings
+Added bicubic lightmaps (from Half-Life 2: 20th Anniversary Update)
+Added radial fog (from Half-Life 2: 20th Anniversary Update)
+Added support for Steam Networking
+Made the default server name for listen servers include the player's name
+Made the game launch in native resolution by default instead of 640x480
+Client-side prediction fixes (these fix 'jank'/rollback in certain situations)
+Fixed a prediction bug where if the player was moved on the client, their input-based movement for that tick was not taken into account in non-player actions
+Improved prediction for walking on props and other entities
+Made certain client-side entities only trigger local prediction errors
+e.g. If the viewmodel experiences a prediction error, the player will not experience a prediction error
+Fixed prediction of viewmodel sway
+Fixed a prediction error regarding weapon idle animations
+Fixed certain breakable props not gibbing correctly
+Fixed an issue where certain variables like position would not be updated correctly to match the server in certain situations
+Fixed the player's base velocity (eg. conveyors, moving items etc.) getting subtly out of sync from client/server
+Fixed players being able to spam duel cancellation messages for a duel that doesn't exist
+Fixed not being able to join community servers via Steam invites or game info
+Fixed lighting position discrepancies for cosmetic items, weapons, and viewmodels (community fix from ficool2)
+Fixed Equipped label overlapping attribute icons in the loadout menu (community fix from Lindon)
+Fixed an issue with props and team colors when taunting with Australium weapons
+Fixed the Voices from Below effect not working when taunting with the Highland Hound set equipped
+Fixed player voice commands being abruptly ended when the player enters shallow water
+Fixed incorrect number on the Geneva Contravention achievement icon
+Fixed the Military Style for The Surgeon General to stay properly semi-visible at all angles
+Fixed some classes missing the BLU team material for That '70s Chapeau
+Fixed the Spanish-Latin America option being displayed as English in the Settings menu
+Fixed the MOTD dialog not working for Spanish-Latin America
+Updated attribute descriptions for The Scottish Resistance and the Stickybomb Jumper to use 'stickybomb' instead of 'pipebomb'
+Updated equip_region settings for The Little Bear, The Heavy-Weight Champ, The Grand Duchess Tutu, and the Combat Slacks to fix unnecessary conflicts
+Updated the Spooky Night and Ominous Night Unusual taunt effects to fix a visual bug (Thanks Kiffy!)
+Updated koth_overcast_final to improve optimization
+Updated ctf_applejack
+Added block bullets to some stores
+Unblocked a window at mid, allowing Snipers to shot across the middle hut
+Removed the missing texture in BLU spawn
+Gave a chicken a friend, because friendship is magic
+Updated cp_fortezza
+New radio model for spawn rooms
+Changed sentry shack ammo pack on last to a medium
+Adjusted health pickups throughout the map
+Changed kill volume on cap A double doors to be more consistent with visuals
+Improved bot support (Thanks Star Bright)
+Detail pass
+Updated pl_patagonia
+[Stage 1]
+Fixed some RED bots stuck forever trying to make an impossible jump on the stairs outside spawn
+Fixed the cart not capping the first point on extremely rare occasions
+[Stage 2]
+Improved optimization
+Fixed a nodraw floor near the first BLU spawn train bridge waterfall
+Fixed 3D skybox looking pitch black for players using mat_hdr_level 2
+[Stage 3]
+Improved optimization
+Fixed wrap assassin baubles colliding with a solid func_brush bounding box outside BLU spawn
+Removed the platform above the open choke of the last point
+Added an additional path to the window overlooking the open choke of the last point
+Fixed RED bots getting stuck on a solid fence outside the RED spawn
+Fixed 3D skybox looking pitch black for players using mat_hdr_level 2
+Fixed HUD scope animation exploit (GitHub fix from mastercoms)
+Fixed case where the door model for Match Status HUD wasn't initialized before setting the submodel (GitHub fix from rabscootle)
+Fixed money not automatically being collected in Mann vs. Machine respawn rooms (GitHub fix from mastercoms)
+Fixed stuck Mann vs. Machine bots sometimes causing spawn softlocks (GitHub fix from Mentrillum)
+Fixed Mann vs. Machine ammo canteens not affecting energy weapons (GitHub fix from Mentrillum)
+Fixed 'Shell Extension' achiemevent not working for energy weapons (GitHub fix from Mentrillum)
+Fixed not being able to deploy parachute after landing and becoming airborne without jump button (GitHub fix from FlaminSarge)
+Fixed some heap allocated KeyValues leaks (GitHub fix from Dmitry Tsarevich)
+Relaxed in-game chat restrictions for certain accounts
+Added missing string for the PNG filter when using the Decal Tool
+Added missing newline to the 'Unable to initialize sound capture' console message
+Added IsNextBot() method (GitHub fix from Bitl)
+Added support for custom mission briefings in vsh and zi game modes (GitHub fix from Gamer_X)
+Added convar to control max Mann vs. Machine robots (GitHub fix from ficool2)
+Added prediction for Thermal Thruster + self-stun (GitHub fix from wgetJane)
+Fixed crash with game_round_win in KOTH (GitHub fix from doclic)
+Fixed Mann vs. Machine status HUD not using the mini boss background for enemies in the Support group
+Fixed Medieval Mode Auto-RP not matching lowercase input unless it begins with an 'a'
+Fixed backpack page buttons putting the 'New' label behind the button
+Fixed character info panel not being positioned correctly
+Fixed The Front Runner using the wrong team color for the headset on the Stylin' style
+Fixed Announcer VO with static at the end of the sound (community fix from Lindon)
+Fixed missing lightwarp setting for the Conniver's Kunai and The Half-Zatoichi (community fix from Lindon)
+Fixed The Bazaar Bargain's scope being painted when using the Elfin Enamel war paint
+Fixed commentary text not displaying
+Fixed TFBot VScript methods SetBehaviorFlag, ClearBehaviorFlag, IsBehaviorFlagSet, SetMission, SetPrevMission, GetMission, GetPrevMission, and HasMission using 'unsigned int' by mistake
+Fixed overlapping internal font names causing one font to overwrite the other for Linux clients (GitHub fix from RoseyLemonz)
+Fixed Casual late-joiners seeing Competitive logo on Match Status HUD doors (GitHub fix from rabscootle)
+Fixed Spy bots using human voice lines in Mann vs. Machine (GitHub fix from John Kvalevog)
+Fixed crash on VGUI menu bar button cursor entrance (GitHub fix from RGBACatlord)
+Fixed Mann vs. Machine bomb carrier voice line playing during normal CTF with bots (GitHub fix from mastercoms)
+Fixed organ props spawning from non-Vita-Saw damage (GitHub fix from Thomas Kain)
+Fixed uninitialized field use in CParticleEffectBinding (GitHub fix from Thomas Kain)
+Fixed type cast warning caused by pointer size mismatch (GitHub fix from SanyaSho)
+Fixed typo in Mann vs. Machine score calculation (GitHub fix from HalfMatt)
+Fixed missed break in logging character field save data causing incorrect logging (GitHub fix from Dmitry Tsarevich)
+Fixed Engineer bots soft locking on CTF maps (GitHub fix from AwfulRanger)
+Fixed middle mouse kicking you in PASS Time (GitHub fix from ficool2)
+Fixed radial fog not being enabled in 3D sky on official maps (GitHub fix from ficool2)
+Fixed PLAYER_FLAG_BITS truncating m_fFlags sent to clients (GitHub fix from copperpixel)
+Fixed prediction for jumping when The Huntsman is charged/released (GitHub fix from wgetJane)
+Fixed prediction for Force-A-Nature jumps (GitHub fix from wgetJane)
+Increased PLAYER_FLAG_BITS to 32
+Removed temporary player jingle files if tf_delete_temp_files (GitHub fix from AndrewBetson)
+Removed MFC dependency in the launcher exe (GitHub fix from Slartibarty)
+Updated the ConTracker 'Back' button to accommodate longer localization strings
+Updated plr_hacksaw_event
+Fixed erroneous and asymmetric clipping across the map
+Fixed pumpkin bomb quota being too low

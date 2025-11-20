@@ -1,0 +1,21 @@
+Fixed a bug where Pyro's flamethrower would occasionally start a barbecue party without the player's permission. Sorry, Scouts.
+
+Engineers can now build sentries that shoot confetti instead of bullets. It's less effective but way more festive.
+
+Spy's disguise kit now includes a "Fashion Police" mode that insults enemies' hats before backstabbing them. Guaranteed to cause confusion.
+
+Added a new voice line for Heavy: "I eat sandwiches, you die."
+
+Soldiers can now rocket jump while shouting inspirational quotes from famous historical figures. Jump higher, feel smarter.
+
+The Scout's baseball bat has been renamed "The Wiffle Whacker" due to excessive missed swings.
+
+Demoman’s grenades now explode into harmless fireworks on weekends. Fire safety first!
+
+Fixed a rare glitch where Snipers would accidentally snipe their own team’s hats off. Hat theft is a serious offense.
+
+Medic can now heal teammates with hugs. Warning: Hugging takes twice as long as normal healing.
+
+Added new cosmetic item: "The Confused Pyro" hat, which makes other players question reality.
+Adv. Options to receives a bug that can now deal full damage.
+Removes debuffs (fire, jarate, especially in overheal effects.

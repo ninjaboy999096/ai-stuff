@@ -1,0 +1,448 @@
+Fixed players getting stuck in midair after rocket jumping near a teleporter  
+Added new voice lines for Medic when overhealing targets above 300 health  
+Reduced flamethrower particles slightly to improve visibility  
+Fixed bug where the Sandvich could be eaten twice if dropped and picked up quickly  
+Removed the bug where kill cam shows Pepsi ad  
+Updated hit detection for Spy’s backstab to be more consistent at close range  
+Improved ragdoll physics on slope surfaces  
+Fixed Heavy’s minigun barrel spinning sound persisting after weapon switch  
+Adjusted payload cart speed slightly when multiple players are pushing  
+Added new cosmetic unusual effect “Nebula Burst”  
+Fixed bug with bots getting stuck at spawn doors in Attack/Defend maps  
+Reduced Huntsman arrow hitbox size slightly  
+Added new random crit sound effect for variety  
+Fixed rocket launcher reload animation occasionally desyncing  
+Improved texture quality for Demoman’s default grenade launcher  
+Added new killstreak sheen “Liquid Chrome”  
+Fixed bug where cloak meter would not refill while standing still as Spy  
+Reduced time it takes to switch from melee to primary by 0.1 seconds  
+Updated vote kick system to properly display player SteamID  
+Fixed bug where Sniper’s scope blur would stay active after death  
+Added extra clipping brushes to stop players from escaping map boundaries  
+Fixed ragdolls occasionally launching into the sky upon death  
+Reduced Concheror’s overheal bonus slightly  
+Fixed missing sound cue for Engineer’s mini-sentry destruction  
+Adjusted lighting in 2Fort basement for improved visibility  
+Fixed bug with Ubercharge percentage not displaying correctly  
+Updated unusual particle “Burning Flames” for better performance  
+Added new Pyro taunt “Marshmallow Roast”  
+Fixed teleporters sometimes spawning players at incorrect angles  
+Added new hat “The Towering Bucket”  
+Improved bot pathfinding around moving platforms  
+Reduced L’Etranger ammo reserve by 6  
+Fixed bug with Jarate not applying to disguised Spies  
+Adjusted Heavy’s melee swing arc slightly  
+Fixed missing kill icon for Cow Mangler’s charged shot  
+Improved control point capture sound timing  
+Added new war paint “Toxic Swirl”  
+Fixed unusual effect not displaying on certain hats  
+Reduced damage falloff slightly for the Panic Attack shotgun  
+Fixed bug where Dispensers would heal disguised Spies  
+Added new announcer voice lines for sudden death  
+Updated scoreboard to show healing done for all classes  
+Fixed bug with Bonk! Atomic Punch lasting longer than intended  
+Adjusted ragdoll dissolve speed for cleaner visuals  
+Removed bug where Sniper scope would show Minecraft dirt block  
+Reduced random crit chance slightly in Casual mode  
+Fixed bug with airblast reflecting arrows inconsistently  
+Added new melee weapon for Soldier “The Bayonet”  
+Fixed Spy-cicle particles persisting after respawn  
+Improved sentry gun tracking against fast-moving targets  
+Added new taunt kill for Demoman “Bottle Smash”  
+Fixed missing textures in Dustbowl skybox  
+Updated Mann Co. Store with new seasonal items  
+Reduced flamethrower afterburn duration slightly  
+Fixed bug with Medic’s crossbow bolts sticking in midair  
+Adjusted capture point unlock timing on Gravel Pit  
+Added new music track for Halloween maps  
+Fixed ragdolls clipping through payload carts  
+Reduced damage penalty for the Boston Basher  
+Fixed bug with disguised Spy holding invisible weapons  
+Added new hat “The Gentleman’s Cap”  
+Improved bot awareness of sentry positions  
+Fixed bug where domination icons would not appear  
+Adjusted Demoknight shield bash stun duration  
+Added new unusual taunt effect “Spark Shower”  
+Fixed bug with Sniper rifle not charging properly  
+Improved Spy disguise voice lines playback  
+Fixed overlapping sound cues for rocket jumps  
+Added new cosmetic crate series 147  
+Adjusted payload cart heal rate slightly  
+Fixed bug with disguised Spy health not displaying correctly  
+Updated ragdoll collisions on water surfaces  
+Reduced Direct Hit splash radius slightly  
+Added new taunt for Scout “Bat Spin”  
+Fixed bug where sentry guns would target invulnerable players  
+Improved Medic Uber deploy animation  
+Fixed invisible wall in Upward final point  
+Added new unusual effect “Molten Core”  
+Reduced bullet spread slightly for the SMG  
+Fixed bug with fish kill icons not appearing  
+Adjusted ragdoll stiffness for more variety  
+Improved ambient sounds on Viaduct  
+Fixed bug with holiday cosmetics not unequipping properly  
+Added new paint colors “Rust Orange” and “Toxic Green”  
+Reduced reload time slightly for the Liberty Launcher  
+Fixed bug where players could build inside spawn doors  
+Adjusted crit sound volume slightly lower  
+Added new taunt kill for Heavy “Sandvich Smash”  
+Fixed missing Spy disguise smoke particles  
+Improved Engineer build animation speed  
+Removed bug where Scout could triple jump if he believed hard enough  
+Reduced melee crit chance when taunting  
+Fixed ragdoll scaling bug when using resize commands  
+Updated game credits with new community contributors  
+Added new achievement for surviving 100 fire damage in a single life  
+Fixed bug with control point HUD not updating  
+Adjusted Huntsman draw animation  
+Improved sound occlusion on indoor areas  
+Fixed bug where Sapper wouldn’t detach correctly  
+Added new hat “The Breadbox”  
+Reduced reload speed penalty on Loch-n-Load  
+Fixed bug with killcams displaying wrong location  
+Updated texture resolution on Kritzkrieg backpack  
+Added new announcer lines for overtime  
+Fixed bug where players could respawn with invulnerability  
+Reduced airblast push distance slightly  
+Improved lighting on Harvest event map  
+Fixed bug with invisible sticky bombs  
+Added new unusual effect “Void Spiral”  
+Adjusted Soldier’s rocket jump damage slightly  
+Fixed ragdoll blood decals not appearing  
+Improved Spy cloak fade-out speed  
+Fixed bug with Wrangler shield persisting after destruction  
+Added new hat “The Worker’s Helm”  
+Reduced critical hit chance in Arena mode  
+Fixed bug with Scout’s double jump sound not playing  
+Updated Pyrovision textures for consistency  
+Added new taunt “Dance of Doom”  
+Fixed ragdolls bouncing too much on trampolines  
+Adjusted Engineer metal pickup radius slightly  
+Improved flamethrower impact sound  
+Fixed bug with Sniper Jarate sound not playing  
+Added new unusual effect “Shattered Glass”  
+Reduced Rocket Jumper knockback slightly  
+Fixed bug with Spy’s disguise kit not updating weapon  
+Improved control point capture animations  
+Added new music track for Capture the Flag maps  
+Fixed missing voice line for Medic overheal  
+Adjusted ragdoll rotation speed slightly  
+Reduced sticky bomb arm time by 0.1 seconds  
+Fixed bug with demo shields blocking all knockback  
+Added new paint color “Sunset Yellow”  
+Fixed kill feed icon for Gloves of Running Urgently  
+Improved spectator camera smoothing  
+Removed bug where killcam showed random guy eating beans  
+Reduced rocket particle opacity slightly  
+Fixed bug with Engineer building sounds looping  
+Added new war paint “Digital Camo”  
+Updated scoreboard font readability  
+Fixed bug with melee swing particles not displaying  
+Adjusted payload round timer slightly  
+Added new unusual effect “Vortex Flare”  
+Fixed bug with Medic crossbow healing through walls  
+Reduced Huntsman random spread slightly  
+Fixed bug with ragdolls spawning upside down  
+Improved flamethrower reflect accuracy  
+Added new achievement for destroying 10 sentries in one match  
+Fixed sound bug with Spy Dead Ringer activation  
+Reduced max overheal for Quick-Fix slightly  
+Fixed bug with Sniper rifle not scoping correctly  
+Added new taunt kill “Rocket Slam”  
+Improved ragdoll scaling for giant robots  
+Fixed bug with holiday mode not disabling  
+Adjusted Scout bat swing speed slightly  
+Added new unusual effect “Crystal Shards”  
+Fixed bug with team-colored hats appearing as default  
+Improved Uber deploy sound clarity  
+Fixed bug with Engineer teleport exit particles  
+Added new weapon inspect animations  
+Reduced random crit frequency on melee weapons  
+Fixed bug with domination icons flickering  
+Updated payload cart collision box  
+Added new hat “The Bricklayer”  
+Fixed ragdolls stretching during airblast  
+Improved Spy disguise animation blending  
+Reduced Huntsman crit damage slightly  
+Fixed bug with ambient sound looping  
+Added new unusual effect “Flame Orbit”  
+Adjusted rocket jump fall damage slightly  
+Fixed bug with holiday cosmetics stacking  
+Improved ragdoll sinking in water  
+Fixed bug with Kritzkrieg crit sound missing  
+Added new war paint “Obsidian”  
+Reduced minigun spin-up time slightly  
+Fixed bug with ragdoll collision jitter  
+Updated crosshair customization options  
+Fixed bug with friendly fire in training maps  
+Improved sentry targeting prioritization  
+Added new unusual taunt effect “Energy Burst”  
+Fixed bug with payload cart floating  
+Adjusted map boundary clip brushes  
+Added new paint color “Sky Blue”  
+Fixed ragdolls disappearing too quickly  
+Reduced crit chance slightly for backstabs  
+Fixed bug with Engineer teleporters misfiring  
+Improved sound mix in outdoor maps  
+Added new taunt “Victory Lap”  
+Fixed bug with grenade launcher misfiring  
+Reduced flamethrower damage at long range  
+Fixed bug with Medic shield sound missing  
+Added new unusual effect “Electric Surge”  
+Improved ragdoll pose randomness  
+Fixed bug with bot navigation nodes  
+Reduced Rocket Launcher ammo reserve by 2  
+Added new war paint “Acid Rain”  
+Fixed bug with sentry placement exploit  
+Improved spectator mode UI  
+Fixed bug with voice lines cutting off  
+Added new hat “The Lumberjack”  
+Reduced Huntsman charge time slightly  
+Fixed ragdoll gravity bug on slopes  
+Adjusted flamethrower afterburn visuals  
+Fixed bug with Spy revolver reload animation  
+Improved lighting in Badwater Basin  
+Added new unusual effect “Solar Flare”  
+Fixed bug with Medic auto-heal not toggling  
+Reduced airblast ammo cost slightly  
+Added new killstreak sheen “Pearl White”  
+Fixed bug with domination messages  
+Improved Spy disguise health display  
+Reduced minigun spread slightly  
+Fixed ragdoll clipping into world geometry  
+Added new announcer line for stalemates  
+Improved payload push force  
+Fixed bug with backstab animations  
+Added new taunt kill “Skull Crusher”  
+Reduced Sticky Jumper knockback  
+Fixed bug with holiday crates not opening  
+Added new unusual effect “Dark Matter”  
+Adjusted crit chance scaling  
+Fixed ragdoll cloth simulation  
+Improved flamethrower hit detection  
+Fixed bug with Engineer building stacking  
+Added new hat “The Brick Top”  
+Reduced random crits in Competitive mode  
+Fixed bug with payload checkpoints  
+Improved announcer timing for round end  
+Added new war paint “Inferno Red”  
+Reduced Loch-n-Load explosion radius  
+Fixed ragdoll sinking through ground  
+Added new unusual taunt effect “Lightning Arc”  
+Improved sound occlusion indoors  
+Fixed bug with holiday particles persisting  
+Added new paint color “Ocean Teal”  
+Reduced flare gun afterburn slightly  
+Fixed ragdoll pose freezing  
+Improved rocket trail visuals  
+Added new unusual effect “Lava Flow”  
+Fixed bug with Sapper detonation delay  
+Reduced Huntsman quick-shot accuracy  
+Added new taunt “Power Slide”  
+Fixed ragdoll jittering in elevators  
+Improved sticky bomb trajectory prediction  
+Added new unusual effect “Comet Trail”  
+Fixed bug with respawn timers desyncing  
+Reduced flamethrower airblast pushback  
+Added new hat “The Chef’s Hat”  
+Improved Spy disguise weapon scaling  
+Fixed ragdoll rotation glitch  
+Added new unusual effect “Aurora Shine”  
+Reduced minigun damage at long range  
+Fixed bug with crit sound spam  
+Improved announcer voice clarity  
+Added new war paint “Emerald Tech”  
+Reduced scattergun spread slightly  
+Fixed ragdoll spawn offset  
+Added new taunt kill “Caber Smash”  
+Fixed bug with domination sound overlap  
+Reduced flare gun crit chance  
+Added new unusual effect “Gravity Well”  
+Improved payload cart physics  
+Fixed ragdoll clipping on ladders  
+Added new unusual taunt effect “Prism Burst”  
+Reduced Medic overheal decay slightly  
+Fixed bug with scoreboard not updating assists  
+Improved flamethrower crit sound  
+Added new hat “The Mailman”  
+Reduced Loch-n-Load reload time slightly  
+Fixed ragdoll spawn lag  
+Added new unusual effect “Shimmer Storm”  
+Improved sound balance in tunnels  
+Fixed bug with sticky bombs sticking in midair  
+Reduced Huntsman crit damage slightly  
+Added new paint color “Lemon Zest”  
+Fixed ragdoll visual scaling bug  
+Improved announcer sound mixing  
+Added new unusual effect “Cosmic Swirl”  
+Reduced rocket jump self-damage  
+Fixed bug with Ubercharge popping instantly  
+Added new taunt kill “Bottle Smash”  
+Improved Spy disguise HUD display  
+Fixed ragdoll spring effect  
+Added new war paint “Bronze Alloy”  
+Reduced minigun spin-up sound volume  
+Fixed bug with kill icons missing  
+Improved Engineer dispenser heal sound  
+Added new unusual taunt effect “Shattered Ice”  
+Fixed ragdoll floating in lava  
+Reduced flamethrower afterburn crit chance  
+Added new hat “The Painter’s Cap”  
+Improved sticky bomb explosion visuals  
+Fixed ragdoll orientation bug  
+Added new unusual effect “Galaxy Spin”  
+Reduced Huntsman reload animation time  
+Fixed bug with domination icons misaligned  
+Improved sniper scope blur quality  
+Added new paint color “Rose Red”  
+Reduced minigun knockback slightly  
+Fixed bug with ragdoll scaling on bots  
+Added new unusual taunt effect “Void Pulse”  
+Improved announcer sound timing  
+Fixed bug with payload cart healing  
+Reduced scattergun reload time slightly  
+Added new war paint “Cobalt Hex”  
+Improved Spy cloak sound clarity  
+Fixed ragdoll stutter during death  
+Added new unusual effect “Inferno Cloud”  
+Reduced Loch-n-Load splash radius  
+Fixed bug with Ubercharge icons  
+Added new hat “The Pilot Cap”  
+Improved flamethrower fire particles  
+Fixed ragdoll detaching too quickly  
+Added new unusual taunt effect “Crystal Pulse”  
+Reduced flare gun knockback  
+Fixed bug with ragdoll limb stretching  
+Added new paint color “Mint Green”  
+Improved sniper rifle reload sound  
+Fixed bug with domination announcer line  
+Reduced sticky bomb max charge slightly  
+Added new unusual effect “Electric Wave”  
+Improved Spy backstab hitbox detection  
+Fixed ragdoll falling through floor  
+Added new taunt kill “Axe Chop”  
+Reduced minigun crit chance  
+Fixed bug with Engineer buildings clipping  
+Improved announcer voice volume balance  
+Added new unusual effect “Solar Halo”  
+Reduced Huntsman arrow speed slightly  
+Fixed ragdoll flip bug  
+Added new hat “The Farmer’s Hat”  
+Improved flamethrower reflect animation  
+Fixed ragdoll twitching on respawn  
+Added new unusual taunt effect “Energy Shards”  
+Reduced scattergun crit chance slightly  
+Improved sticky bomb sound occlusion  
+Fixed bug with domination lines overlapping  
+Added new unusual effect “Nebula Star”  
+Reduced rocket splash radius slightly  
+Fixed ragdoll death camera issue  
+Added new war paint “Obsidian Black”  
+Improved Spy disguise smoke sound  
+Fixed bug with domination kill feed  
+Added new unusual effect “Crystal Flame”  
+Reduced minigun ammo reserve slightly  
+Improved announcer clarity in sudden death  
+Fixed ragdoll shadow rendering  
+Added new hat “The Baker’s Cap”  
+Reduced flamethrower afterburn tick damage  
+Fixed bug with Spy disguise failing  
+Improved sticky bomb explosion particles  
+Added new unusual taunt effect “Firestorm”  
+Fixed ragdoll spinning in midair  
+Reduced Huntsman quick-shot crits  
+Improved announcer sudden death timing  
+Added new unusual effect “Plasma Surge”  
+Reduced scattergun spread slightly  
+Fixed ragdoll freeze frame issue  
+Added new war paint “Silver Pulse”  
+Improved sniper scope sound clarity  
+Fixed bug with domination stats  
+Reduced Loch-n-Load damage slightly  
+Added new hat “The Brick Helm”  
+Improved Spy backstab animation blending  
+Fixed ragdoll velocity bug  
+Added new unusual effect “Lunar Glow”  
+Reduced minigun startup delay slightly  
+Fixed bug with ragdoll death angles  
+Improved flamethrower crit visual clarity  
+Added new unusual taunt effect “Frost Spark”  
+Reduced sticky bomb knockback slightly  
+Fixed ragdoll rolling endlessly  
+Added new paint color “Amber Gold”  
+Improved announcer round end timing  
+Fixed bug with domination HUD  
+Reduced flare gun reload time  
+Added new unusual effect “Volcanic Ash”  
+Improved Spy cloak activation animation  
+Fixed ragdoll breaking camera angles  
+Added new hat “The Worker Cap”  
+Reduced rocket launcher reload speed slightly  
+Improved flamethrower reflect particle speed  
+Fixed bug with domination sound spam  
+Added new unusual effect “Prism Shards”  
+Reduced scattergun crit damage  
+Improved sniper rifle reload animation  
+Fixed ragdoll blood particle bug  
+Added new unusual taunt effect “Storm Surge”  
+Reduced Huntsman random spread  
+Fixed ragdoll floating bug  
+Improved sticky bomb detonation visuals  
+Added new war paint “Crimson Storm”  
+Reduced minigun damage slightly  
+Fixed ragdoll limb stretch glitch  
+Added new unusual effect “Void Fire”  
+Improved announcer overtime call  
+Fixed ragdoll despawn bug  
+Added new hat “The Smoker’s Cap”  
+Reduced flamethrower airblast knockback  
+Improved Spy disguise transition speed  
+Fixed ragdoll particle effect clipping  
+Added new unusual taunt effect “Radiant Burst”  
+Reduced rocket jump fall damage  
+Fixed ragdoll animation freeze  
+Added new unusual effect “Stellar Burst”  
+Improved sniper rifle scope blur  
+Fixed ragdoll impact sound bug  
+Added new paint color “Midnight Blue”  
+Reduced scattergun reload animation slightly  
+Improved announcer intro timing  
+Fixed ragdoll flipping endlessly  
+Added new unusual effect “Frozen Core”  
+Reduced Huntsman charge crit damage  
+Fixed ragdoll texture bug  
+Improved sticky bomb sound timing  
+Added new hat “The Hunter’s Cap”  
+Reduced minigun spread slightly  
+Fixed ragdoll shadow jitter  
+Added new unusual effect “Spark Core”  
+Improved flamethrower particle brightness  
+Fixed ragdoll respawn desync  
+Reduced flare gun afterburn damage  
+Added new unusual taunt effect “Cosmic Burst”  
+Improved Spy cloak transition timing  
+Fixed ragdoll blood spray bug  
+Reduced Loch-n-Load reload animation speed  
+Added new unusual effect “Prism Core”  
+Fixed bug with scoreboard medals misaligned  
+Improved payload cart climb speed  
+Removed bug where Medic would yell “PIZZA TIME” randomly  
+Reduced airblast ammo cost in Casual mode  
+Added new unusual effect “Solar Collapse”  
+Improved ragdoll gibbing effect  
+Fixed bug where killcam sometimes showed Valve office hallway  
+Reduced Huntsman crit chance in competitive  
+Added new unusual taunt effect “Bread Storm”  
+Fixed ragdolls floating above payload carts  
+Improved announcer voice mix on overtime  
+Fixed bug with Sniper rifle scope breaking at 420 zoom  
+Added new paint color “Pickle Green”  
+Reduced Spy Dead Ringer cloak duration  
+Improved rocket jump dust particles  
+Fixed bug where Scout could eat sandwich and heal  
+Added new unusual effect “Error 404”  
+Reduced flamethrower sound volume slightly  
+Improved sentry gun aim smoothing  
+Removed bug where Sniper rifle shot bananas instead of bullets  
+Added new war paint “Static Neon”  
+Reduced min

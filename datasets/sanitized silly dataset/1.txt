@@ -1,0 +1,117 @@
+Updated hit registration to reduce delayed melee attacks and minor projectile desyncs on high-latency servers.
+
+Fixed a rare crash that could occur when spectating cloaked Spies while the map transitions during Halloween events.
+
+Improved server performance on maps with excessive props and dynamic lighting.
+
+Adjusted random crit chance scaling during high ping sessions to better align with player expectations.
+
+Bonk! Atomic Punch now grants slightly less damage resistance, encouraging more aggressive gameplay.
+
+Scattergun reload time decreased by 0.1 seconds; firing animations slightly smoothed for better visual feedback.
+
+Fixed a bug allowing Scouts to double jump while crouching mid-air or while touching moving platforms.
+
+Rocket Launcher splash radius slightly reduced; rockets now deal more consistent damage on glancing hits.
+
+Added visual particle effects when Soldier rockets reach maximum velocity.
+
+Base jump momentum adjusted to prevent unintended wall glitches on maps with tight corridors.
+
+Flamethrower now consistently applies afterburn to cloaked Spies; particles no longer clip through walls in high-resolution maps.
+
+Airblast more reliably reflects projectiles when moving backward or under knockback effects.
+
+Fixed rare animation desync for Pyro when performing “Taunt: High Five” while carrying the intelligence.
+
+Stickybomb detonation slightly delayed when thrown over ramps or inclines to improve predictability.
+
+Scottish Resistance shield correctly resists explosive knockback during competitive play; visual cues added.
+
+Fixed Chargin’ Targe bug where explosions occasionally pushed the Demoman forward in unintended directions.
+
+Minigun spin-up now resets correctly after taking damage or being interrupted by environmental collisions.
+
+Health from Sandvich adjusted to prevent overhealing exploits when multiple Medics are nearby.
+
+Fixed a client-side bug causing unusual Heavy taunts to overlap with kill sounds, creating audio distortion.
+
+Sentry Gun targeting improved to better acquire high-speed targets and reduce latency-related misses.
+
+Teleporter exit animations fixed; players no longer appear in T-pose or clipped geometry after respawn.
+
+Dispenser now outputs ammo and metal in a 2:1 ratio as intended; occasional minor audio cues added when resources are full.
+
+ÜberCharge rate slightly increased when healing allies below 50 HP; visual charge meter more responsive.
+
+Fixed crash when Medic switches weapons mid-ÜberCharge while under rapid damage effects.
+
+Added audio cue for healing multiple players simultaneously to improve situational awareness.
+
+Headshot sounds now correctly trigger for moving targets at extreme ranges, including through partial cover.
+
+Jarate extinguishes Pyro afterburn immediately; minor visual particle update for clarity.
+
+Scoped Sniper no longer occasionally sees through walls after respawning or switching to secondary.
+
+Spy cloak duration slightly increased; decloak animation optimized to reduce visual glitches in corners.
+
+Backstab consistently works on enemies under UberCharge or during teleport animations.
+
+Fixed rare bug where Spy could accidentally decloak in spectator mode or when switching classes rapidly.
+
+CP_Dustbowl: Added small cover near mid for defensive balance; fixed lighting to reduce visibility exploits.
+
+KOTH_Viaduct: Adjusted lighting and props to improve fairness for both teams; payload tracks optimized for smoother cart movement.
+
+Payload carts now correctly reset if a player disconnects while pushing; minor collision fixes applied.
+
+Adv. Options now properly applies network smoothing on high ping connections; UI responsiveness slightly improved.
+
+Random crit calculations now respect projectile speed and distance for consistency; slight visual particle adjustment for clarity.
+
+Localization updates: Minor grammar and spelling fixes across all languages; certain character encodings fixed for Asian languages.
+
+Pyro taunt “High Five” now triggers ambient crowd noises when performed near multiple teammates.
+
+Demoman’s grenades now produce slightly louder audio cues to make enemy awareness more intuitive.
+
+Heavy’s minigun firing sound rebalanced to better represent RPM; idle hum reduced to prevent audio fatigue.
+
+Engineer buildings now have slight collision adjustments to prevent players from clipping into sentries or dispensers.
+
+New particle effect added for all healing beams when Medic is overhealed by multiple sources.
+
+Fixed bug where flags in CTF maps could temporarily disappear if a player interacted with a teleporter while carrying it.
+
+Weapon inspection animations slightly sped up for all classes; first-person view more responsive.
+
+Miscellaneous audio improvements: footsteps, taunts, and ambient map sounds slightly rebalanced.
+
+Minor UI tweaks: scoreboard now highlights active objectives more clearly; notifications no longer overlap during simultaneous events.
+
+Fixed a bug causing random client freeze when joining servers with more than 32 players on community maps.
+
+Added additional debug logs for internal testing, not visible to players, to track rare crash conditions.
+
+Random minor balance changes: some weapons slightly adjusted for damage falloff, projectile speed, and reload timing.
+
+Updated particle effects for airblast and sticky explosion; slightly brighter for clarity in competitive play.
+
+Fixed a bug where certain unusual hats would clip into character models during animations or taunts.
+
+Minor optimization of network packets to reduce latency spikes during large-scale battles.
+
+Advanced options now properly show network stats and FPS overlay without requiring restart.
+
+Fixed rare issue where Pyro’s flamethrower could briefly emit invisible particles, causing inconsistent hit detection.
+
+Scout running animations slightly smoothed to prevent jittering when switching weapons rapidly.
+
+Soldier’s rocket jump force adjusted to prevent unintended clipping on certain map corners.
+
+Spy disguise system updated to reduce visual flicker when changing disguise while moving.
+
+Fixed multiple minor cosmetic bugs related to hats, misc items, and unusual effects.
+
+Added new hidden debug feature to track rare projectile collisions for testing; no player-facing effect.
